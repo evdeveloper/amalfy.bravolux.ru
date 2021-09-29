@@ -1,0 +1,756 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="manikur.css">
+    <link rel="stylesheet" href="dizayny.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nav-mobile-div">
+        <div class="mobile-menu-header">
+            <div class="header-div-mobile">
+                <div class="exit" onclick="exit_menu()"></div>
+                <a class="logo-link " href="index.html">
+                    <picture class="logo ">
+                        <source srcset="img/logo1920.png" media="(min-width: 1920px)">
+                        <source srcset="img/logo1000.png" media="(min-width: 1000px)">
+                        <source srcset="img/logo768.png" media="(min-width: 768px)">
+                        <source srcset="img/logo320.png" media="(min-width: 320px)">
+                        <img src="img/logo1920.png" alt="logo">
+                    </picture>
+                </a>
+                <a class="telephone menu-telephone" href="tel: +7 (495) 132-00-03" alt=""></a>
+            </div>
+        </div>
+        <div class="menu-services-div">
+            <div class="menu-services">
+                <div class="menu" onclick="open_menu_part()"><span class="menu-text">Меню</span></div>
+                <div class="services" onclick="open_services_part()"><span class="services-text">Услуги</span></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="services.html">Услуги</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Дизайны</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Прайс</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">О студии</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Отзывы</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Статьи</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Акции</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Контакты</a>
+            </div>
+
+        </nav>
+        <nav class="nav-mobile nav-mobile-services">
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Маникюр</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Педикюр</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Дизайны</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Покрытия</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Наращивание ногтей</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Brow Bar</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Ламинирование бровей</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Макияж и причёска</a>
+            </div>
+            <div class="mobile-menu-item">
+                <a class="menu-item-mobile" href="manikur.html">Наращивание ресниц</a>
+            </div>
+
+
+        </nav>
+        <div class="menu-line-div"><span class="menu-line"></span></div>
+        <div class="navigation-div-menu">
+            <span class="telephon-number-menu-mobile" style="display: block;">+7 (495) 132-00-03</span>
+            <span class="order-menu-mobile order-js" style="display:block;" onclick="open_register()">Записаться
+                онлайн</span>
+            <div class="time-div-menu-mobile" style="display:flex; justify-content: center;">
+                <img class="time-img" src="img/time.png" alt=" ">
+                <span class="time-text-menu-mobile">Ежедневно с 10 до 22</span>
+            </div>
+            <div class="location-div-menu-mobile" style="display:flex;">
+                <img class="location-img" src="img/location.png" alt=" ">
+                <span class="location-text-menu-mobile">Белорусская, Александра Невского, 19–25</span>
+            </div>
+            <div class="soc-div-menu">
+                <a class="media-item-menu soc-img" href="manikur.html">
+                    <img class="soc-pic-menu" src="img/instagram.svg" alt="">
+                </a>
+                <a class="media-item-menu soc-img soc-img-face" href="manikur.html">
+                    <img class="soc-pic-menu face" src="img/face.svg" alt="">
+                </a>
+                <a class="media-item-menu soc-img" href="manikur.html">
+                    <img class="soc-pic-menu" src="img/wp.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="register-online-container">
+        <div class="register-exit-div">
+            <div class="register-exit-img" onclick="exit_register()"></div>
+        </div>
+        <div class="register-online-content-div">
+            <div class="register-online-content">
+                <p class="register-online-text">Записаться онлайн</p>
+                <p class="register-online-description">Онлайн запись позволяет выбрать студию, время, услугу и мастера.
+                    Это займет около 3 минут.</p>
+                <button class="register-online-button"><span class="register-online-button-text">Записаться
+                        онлайн</span></button>
+            </div>
+            <div class="register-online-content register-wp">
+                <p class="register-online-text">Записаться WhatsApp</p>
+                <p class="register-online-description">Наши операторы ответят через 5 мин. Подберут удобное время и
+                    ответят на любые вопросы.</p>
+                <button class="register-online-button"><span class="register-online-button-text">Написать в
+                        WhatsApp</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header ">
+            <div class="header-div ">
+                <img class="menu-button" onclick="open_menu()" src="img/menu-button.png" alt=" ">
+                <a class="logo-link " href="index.html">
+                    <picture class="logo ">
+                        <source srcset="img/logo1920.png " media="(min-width: 1920px) ">
+                        <source srcset="img/logo1000.png " media="(min-width: 1000px) ">
+                        <source srcset="img/logo768.png " media="(min-width: 768px) ">
+                        <source srcset="img/logo320.png " media="(min-width: 320px) ">
+                        <img src="img/logo1920.png" alt="logo ">
+                    </picture>
+                </a>
+                <div class="info-and-menu ">
+                    <div class="info ">
+                        <div class="time-div ">
+                            <img class="time-img " src="img/time.png" alt=" ">
+                            <span class="time-text ">Ежедневно с 10 до 22</span>
+                        </div>
+                        <div class="location-div ">
+                            <img class="location-img " src="img/location.png" alt=" ">
+                            <span class="location-text ">Белорусская, Александра Невского, 19–25</span>
+                        </div>
+                        <a href="tel: +7 (495) 132-00-03 " class="telephon-number ">+7 (495) 132-00-03</a>
+                        <span class="order order-js" onclick="open_register()">Записаться онлайн</span>
+
+                    </div>
+                    <span class="line "></span>
+                    <nav class="nav">
+                        <div class="link-ease-in-out ">
+                            <a class="menu-item " href="services.html">Услуги</a>
+                        </div>
+                        <div class="link-ease-in-out ">
+                            <a class="menu-item " href="manikur.html">Дизайны</a>
+                        </div>
+                        <div class="link-ease-in-out ">
+                            <a class="menu-item " href="manikur.html">Прайс</a>
+                        </div>
+                        <div class="link-ease-in-out ">
+                            <a class="menu-item " href="manikur.html">О студии</a>
+                        </div>
+                        <div class="link-ease-in-out ">
+                            <a class="menu-item " href="manikur.html">Отзывы</a>
+                        </div>
+                        <div class="link-ease-in-out ">
+                            <a class="menu-item " href="manikur.html">Статьи</a>
+                        </div>
+                        <div class="link-ease-in-out ">
+                            <a class="menu-item " href="manikur.html">Акции</a>
+                        </div>
+                        <div class="link-ease-in-out ">
+                            <a class="menu-item " href="manikur.html">Контакты</a>
+                        </div>
+
+                    </nav>
+                </div>
+                <a class="telephone " href="tel: +7 (495) 132-00-03 " alt=" "></a>
+            </div>
+        </header>
+        <main class="main flex--none">
+            <div class="breadcrumbs">
+                <div class="container">
+                    <div class="breadcrumbs__list">
+                        <a href="index.html" class="breadcrumbs__item">Главная</a>
+                        <span>/</span>
+                        <div class="breadcrumbs__item">Наши работы</div>
+                    </div>
+                </div>
+            </div>
+            <section class="s-manicure-designs">
+                <div class="container">
+                    <div class="manicure-designs">
+                        <div class="manicure-designs__text">
+                            <h1>Дизайны</h1>
+                            <p>Стоимость работы включает классический маникюр, покрытие гель-лак и дизайн. В стоимость не включены снятие и дополнительные услуги.. Стоимость работы включает классический маникюр, покрытие гель-лак и дизайн. В стоимость не включены снятие и дополнительные услуги.</p>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/1.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Стразы</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/2.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Глиттер</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/3.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Слайдер</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/4.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Матовый</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/5.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Кошачий глаз</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/6.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Обратная лунка</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/7.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Бархатный песок</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/8.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Втирка</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/9.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия средняя</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/10.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия простая</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/11.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Роспись</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/12.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия сложная</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/12.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия сложная</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/12.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия сложная</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/12.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия сложная</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/12.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия сложная</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/12.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия сложная</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="manicure-designs__item">
+                            <div class="manicure-designs__top">
+                                <img src="img/designs/12.jpg" alt="Дизайн ногтей">
+                            </div>
+                            <div class="manicure-designs__body">
+                                <div class="manicure-designs__name">Геометрия сложная</div>
+                                <div class="manicure-designs__price">1 790 ₽</div>
+                            </div>
+                            <div class="manicure-designs__info">
+                                <p>Маникюр + гель-лак + глиттер (2 пальца)</p>
+                                <button type="button">Хочу так же</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s-design-info">
+                <div class="container">
+                    <h2>Дизайн ногтей в студии Amalfi</h2>
+                    <p>Создание дизайна ногтей — неотъемлемый элемент маникюра. Профессиональный дизайн поможет создать неповторимый образ для важного события, поможет вам выразить своё внутреннее мироощущение или просто будет являться отражением вашего настроения.</p>
+                    <p>Мастера студии Nailmaker Bar следят за современными трендами в мире маникюра и могут предложить вам самый стильный дизайн, который будет гармонировать с вашим образом. В нашей студии вас ждёт широчайшая палитра оттенков лаков и гель-лаков и гелей, среди которых вы найдёте как последние новинки, так и классические решения.</p>
+                    <h3>Виды дизайна ногтей</h3>
+                    <p>О каком дизайне вы мечтаете? Нам под силу решить любую профессиональную задачу и воплотить в жизнь даже самые замысловатые идеи. Для этого у нас есть все, что нужно, - качественные материалы и инструменты от лучших производителей.</p>
+                    <p>Мастера студии Nailmaker Bar владеют всеми известными техниками нанесения рисунков и создания дизайна ногтей:</p>
+                    <ul class="designe__list info-list info-list--dropdown">
+                        <li>френч, созданный еще в прошлом веке для голливудских див, и сегодня вдохновляет nail-стилистов. Френч выбирают самые яркие женщины мира;</li>
+                        <li>френч, созданный еще в прошлом веке для голливудских див, и сегодня вдохновляет nail-стилистов. Френч выбирают самые яркие женщины мира;</li>
+                        <li>френч, созданный еще в прошлом веке для голливудских див, и сегодня вдохновляет nail-стилистов. Френч выбирают самые яркие женщины мира;</li>
+                        <li>френч, созданный еще в прошлом веке для голливудских див, и сегодня вдохновляет nail-стилистов. Френч выбирают самые яркие женщины мира;</li>
+                    </ul>
+                    <a href="#" class="info-show">Читать дальше</a>
+                </div>
+            </section>
+            <section class="s-price-list">
+                <div class="container">
+                    <div class="price-listcontainer-main">
+                        <div class="price-head-register">
+                            <p class="price-list-head">Прайс-лист</p>
+                            <a class="register register-none" href="manikur.html"><span
+                                    class="register-text">Записаться</span></a>
+                        </div>
+                        <div class="price-list-container">
+                            <div class="price-list-div">
+                                <div class="items-div-first">
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Стразы [мал. 1 шт.]</span>
+                                        <span class="price-list-item-price">20 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Стразы [бол./фигур. 1 шт.]</span>
+                                        <span class="price-list-item-price">30 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Полоски самокл. [1 шт.]</span>
+                                        <span class="price-list-item-price">50 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Слайдер 1 ноготок</span>
+                                        <span class="price-list-item-price">50 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Френч/Лунки/Обратный</span>
+                                        <span class="price-list-item-price">50 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Глиттер / Блестки</span>
+                                        <span class="price-list-item-price">100 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Глиттер / Блестки Luxio</span>
+                                        <span class="price-list-item-price">100 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Бархатный песок/Мармелад</span>
+                                        <span class="price-list-item-price">100 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Бархатный песок/Пикси/Сахар [кристаллы]</span>
+                                        <span class="price-list-item-price">100 ₽</span>
+        
+                                    </div>
+                                </div>
+                                <div class="items-div-second">
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Дизайн "Мрамор"</span>
+                                        <span class="price-list-item-price">150 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Дизайн "Битое стекло"</span>
+                                        <span class="price-list-item-price">150 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Топ Luxio Shimmer</span>
+                                        <span class="price-list-item-price">200-300 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Матовый топ</span>
+                                        <span class="price-list-item-price">200-300 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Покрытие "Кошачий глаз"</span>
+                                        <span class="price-list-item-price">200-300 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Растяжка Блестками/Глиттером</span>
+                                        <span class="price-list-item-price">200-300 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Втирка/Фольга</span>
+                                        <span class="price-list-item-price">250-350 ₽</span>
+        
+                                    </div>
+                                    <div class="price-list-item">
+                                        <span class="price-list-item-name">Омбре/Градиент</span>
+                                        <span class="price-list-item-price">300-350 ₽</span>
+        
+                                    </div>
+        
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="mobile-register-div">
+                            <a class="register" href="manikur.html"><span class="register-text">Записаться</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s-work-beauty">
+                <div class="container">
+                    <p class="trust-us ">Доверьте нам работу над красотой!</p>
+                    <div class="benefits-list ">
+                        <div class="benefits-item ">
+                            <picture class="benefits-img ">
+                                <source srcset="img/garant180.png " media="(min-width: 1920px) ">
+                                <source srcset="img/garant150.png " media="(min-width: 630px) ">
+                                <img src="img/garant180.png" alt="logo ">
+                            </picture>
+                            <p class="benefit-name b-n-1">Гарантия на покрытие - <br> N дней</p>
+                            <p class="benefit-description ">Переделаем покрытие бесплатно в течение N дней после маникюра
+                                или педикюра, если с ним что-то случится</p>
+                        </div>
+                        <div class="benefits-item ">
+                            <picture class="logo ">
+                                <source srcset="img/studio180.png " media="(min-width: 1920px) ">
+                                <source srcset="img/studio150.png " media="(min-width: 630px) ">
+                                <img src="img/studio180.png" alt="logo ">
+                            </picture>
+                            <p class="benefit-name ">Профилактические <br> меры
+                            </p>
+                            <p class="benefit-description ">Мы безоговорочно следуем указам Роспотребнадзора и заботимся
+                                о клиентах и сотрудниках</p>
+                        </div>
+                        <div class="benefits-item ">
+                            <picture class="logo ">
+                                <source srcset="img/profilactic180.png " media="(min-width: 1920px) ">
+                                <source srcset="img/profilactic150.png " media="(min-width: 630px) ">
+                                <img src="img/profilactic180.png" alt="logo ">
+                            </picture>
+                            <p class="benefit-name ">Студия <br> в сердце столицы</p>
+                            <p class="benefit-description ">Салон красоты бизнес-класса в центре Москвы у метро «Белорусская»
+                            </p>
+                            <a class="benefits-link " href="manikur.html">
+                                <span>Адрес студии</span> 
+                                <img src="img/Vector.png" alt="Адрес студии">
+                            </a>
+                        </div>
+                        <div class="benefits-item ">
+                            <picture class="logo ">
+                                <source srcset="img/atmosphere.png " media="(min-width: 1920px) ">
+                                <source srcset="img/atmosphere150.png " media="(min-width: 630px) ">
+                                <img src="img/atmosphere.png" alt="logo ">
+                            </picture>
+                            <p class="benefit-name ">Роскошная <br> атмосфера
+                            </p>
+                            <p class="benefit-description ">Погрузитесь в красивое стильное пространство, где хочется
+                                находиться!</p>
+                            <a class="benefits-link" href="manikur.html">
+                                <span>Смотреть фото</span>
+                                <img src="img/Vector.png" alt="Смотреть фото">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <footer class="footer ">
+            <div class="footer-div ">
+                <div class="footer-nav ">
+                    <a class="logo-link logo-footer " href="index.html">
+                        <picture class="logo-footer ">
+                            <source srcset="img/logo1920.png " media="(min-width: 1920px) ">
+                            <source srcset="img/logo1000.png " media="(min-width: 1000px) ">
+                            <source srcset="img/logo768.png " media="(min-width: 768px) ">
+                            <source srcset="img/logo320.png " media="(min-width: 320px) ">
+                            <img src="img/logo1920.png" alt="logo ">
+                        </picture>
+                    </a>
+                    <div class="navigation-div ">
+                        <span
+                            class="telephon-number telephon-number-footer telephon-number-footer-mobile ">+7 (495) 132-00-03</span>
+                        <span class="order-footer-mobile order-js" onclick="open_register()">Записаться онлайн</span>
+                        <div class="time-div-footer-mobile ">
+                            <img class="time-img " src="img/time.png" alt=" ">
+                            <span class="time-text time-text-footer " style="font-family: Manrope;">Ежедневно
+                                с 10 до 22</span>
+                        </div>
+                        <div class="location-div location-div-footer ">
+                            <img class="location-img " src="img/location.png" alt=" ">
+                            <span class="location-text location-text-footer ">Белорусская, Александра Невского,
+                                19–25</span>
+                        </div>
+                        <div class="time-div time-div-footer ">
+                            <img class="time-img " src="img/time.png" alt=" ">
+                            <span class="time-text time-text-footer ">Ежедневно с 10 до 22</span>
+                        </div>
+                        <a href="tel: +7 (495) 132-00-03 "
+                            class="telephon-number telephon-number-footer ">+7 (495) 132-00-03</a>
+                    </div>
+                </div>
+                <span class="footer-line-first "></span>
+                <div class="footer-nav-menu ">
+                    <div class="footer-link ">
+                        <div class="footer-nav-menu-item ">
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Маникюр</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Педикюр</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Покрытия</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Наращивание</a>
+                            </div>
+                        </div>
+                        <div class="footer-nav-menu-item ">
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="services.html">Услуги</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Дизайны</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Прайс</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">О студии</a>
+                            </div>
+                        </div>
+                        <div class="footer-nav-menu-item ">
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Отзывы</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Статьи</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Акции</a>
+                            </div>
+                            <div class="link-ease-in-out menu-item-footer ">
+                                <a class="menu-item " href="manikur.html">Контакты</a>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="footer-line-second "></span>
+                    <div class="media-contacts ">
+                        <span class="mail "><a href="http://amalfy.bravolux.ru/cdn-cgi/l/email-protection"
+                                class="__cf_email__"
+                                data-cfemail="1475797578727d76717561606d3a6661546d757a70716c3a6661">[email&#160;protected]</a></span>
+                        <div class="soc-div ">
+                            <a class="media-item " href="manikur.html">
+                                <div class="soc-img soc-img-insta "><img class="soc-pic" src="img/instagram.svg" alt="">
+                                </div><span class="media-text ">Instagram</span>
+                            </a>
+                            <a class="media-item " href="manikur.html">
+                                <div class="soc-img soc-img-face "><img class="soc-pic face" src="img/face.svg" alt="">
+                                </div><span class="media-text ">facebook</span>
+                            </a>
+                            <a class="media-item " href="manikur.html">
+                                <div class="soc-img soc-img-wp "><img class="soc-pic" src="img/wp.svg" alt=""></div>
+                                <span class="media-text ">whatsapp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="dizayny.js"></script>
+    <script src="slider-two.js"></script>
+
+
+
+</body>
+
+</html>

@@ -33,9 +33,9 @@ function showSlides_galery(n) {
     for (i = 0; i < dots_galery.length; i++) {
         dots_galery[i].className = dots_galery[i].className.replace(" active", "");
     }
-    slides_galery[slideIndex_galery - 1].style.display = "flex";
+    // slides_galery[slideIndex_galery - 1].style.display = "flex";
 
-    dots_galery[slideIndex_galery - 1].className += " active";
+    // dots_galery[slideIndex_galery - 1].className += " active";
 }
 
 

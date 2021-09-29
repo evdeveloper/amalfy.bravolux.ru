@@ -894,12 +894,12 @@
        }
        
        @media (max-width: 1000px) {
-           .main {
+           /* .main {
                width: 100%;
                align-items: center;
                margin-left: 0px;
                margin-right: 0px;
-           }
+           } */
            .main-banner {
                width: 728px;
            }

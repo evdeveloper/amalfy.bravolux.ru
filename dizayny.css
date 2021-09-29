@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Igrasans';
+    src: url("font/Igrasans.woff2") format("woff2");
+    src: url("font/Igrasans.woff") format("woff");
+    font-weight: 500;
+    font-style: normal; 
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Igrasans', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 130%;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 130%;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.main.flex--none {
+    width: 100%;
+    display: block;
+    min-height: auto;
+    flex: 1 0 auto;
+    padding: 0 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.s-design-info {
+    padding: 30px 0;
+}
+
+.s-design-info h2 {
+    margin-bottom: 20px;
+}
+
+.s-design-info h3 {
+    margin-bottom: 15px;
+}
+
+.s-design-info p {
+    margin-bottom: 15px;
+}
+
+.info-list li {
+    position: relative;
+    padding-left: 12px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.info-list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.info-list--dropdown {
+    position: relative;
+}
+
+.info-list--dropdown:before {
+   content: '';
+   position: absolute;
+   transition: all .3s;
+   z-index: 1;
+   width: 100%;
+   left: 0;
+   top: 0;
+   height: 100%;
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0.81) 20.56%, rgba(255, 255, 255, 0.65) 84.15%);
+}
+
+.info-list--dropdown._active:before {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.info-list--dropdown li:not(:first-child) {
+    display: none;
+}
+
+.info-list li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 6px;
+    height: 6px;
+    background: #FF8DB1;
+    border-radius: 100%;
+}
+
+.info-show {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.info-show:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    background-color: #000;
+    height: 1px;
+}
+
+.breadcrumbs {
+    font-family: Manrope;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs span {
+    margin: 0 10px;
+}
+
+.breadcrumbs__item {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* Секция дизайна ногтей */
+
+.s-manicure-designs {
+    padding-bottom: 30px;
+}
+
+.manicure-designs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+@media screen and (max-width: 768px) {
+    .manicure-designs {
+        margin: 0 -25px;
+    }
+}
+
+.manicure-designs__item {
+    position: relative;
+    z-index: 1;
+    width: calc(25% - 30px);
+    max-width: calc(25% - 30px);
+    font-size: 16px;
+    transition: all .3s;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 0 15px 15px;
+}
+
+.manicure-designs__text {
+    width: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+    margin: 0 15px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .manicure-designs__text,
+    .manicure-designs__item {
+        width: calc(33.333% - 30px);
+        max-width: calc(33.333% - 30px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .manicure-designs__text {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .manicure-designs__item {
+        width: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+    }
+}
+
+
+.manicure-designs__text h1 {
+    font-size: 30px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+.manicure-designs__text p {
+    line-height: 24px;
+}
+
+.manicure-designs__item:hover {
+    z-index: 2;
+    transform: scale(1);
+}
+
+.manicure-designs__item:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: calc(100% + 30px);
+    height: calc(100% + 135px);
+    z-index: -1;
+    left: -15px;
+    top: -15px;
+    transform: scale(0.9);
+    transition: all .3s;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(39, 47, 77, 0.4);
+    border-radius: 15px;
+}
+
+.manicure-designs__item:hover:after,
+.manicure-designs__item:hover .manicure-designs__info {
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.manicure-designs__top {
+    height: 270px;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+
+@media screen and (max-width: 1000px) {
+    .manicure-designs__top {
+        height: 220px;
+    }
+}
+
+
+.manicure-designs__top img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.manicure-designs__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.manicure-designs__info {
+    width: calc(100% + 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: calc(100% + 135px);
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    text-align: center;
+    padding: 10px 35px 15px;
+    opacity: 0;
+    transition: all .3s;
+    pointer-events: none;
+    visibility: hidden;
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 650px) {
+    .manicure-designs__info {
+        padding: 10px 15px 15px;
+    }
+}
+
+.manicure-designs__info p {
+    max-height: 44px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.manicure-designs__info button {
+    background: #00D2D2;
+    text-align: center;
+    transition: all .3s;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.manicure-designs__info button:hover {
+    background-color: #08b2b2;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 414px) {
+    .manicure-designs__text {
+        text-align: center;
+    }
+    .manicure-designs__item {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 15px;
+        height: 100px;
+        background-color: #F9F9F9;
+    }
+    .manicure-designs__item:after {
+        width: calc(100% + 10px);
+        left: -5px;
+        background-color: #F9F9F9;
+    }
+    .manicure-designs__top {
+        order: 1;
+        height: 100px;
+        margin-bottom: 0;
+    }
+    
+    .manicure-designs__info {
+        padding: 10px 70px 15px;
+    }
+
+    .manicure-designs {
+        margin: 0 -15px;
+    }
+    .manicure-designs__body {
+        flex: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+}
