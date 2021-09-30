@@ -1,1 +1,1 @@
-# [Demo](https://evdeveloper.github.io/amalfy.bravolux.ru/manikur.html)
+# [Demo](https://evdeveloper.github.io/amalfy.bravolux.ru/dizayny.html)
