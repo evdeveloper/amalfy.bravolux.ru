@@ -311,6 +311,16 @@ button {
         height: 220px;
     }
 }
+@media screen and (max-width: 700px) {
+    .manicure-designs__top {
+        height: 180px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .manicure-designs__top {
+        height: 160px;
+    }
+}
 
 
 .manicure-designs__top img {
@@ -362,6 +372,7 @@ button {
     -ms-transform: scale(0.9);
     transform: scale(0.9);
 }
+
 
 @media screen and (max-width: 650px) {
     .manicure-designs__info {
