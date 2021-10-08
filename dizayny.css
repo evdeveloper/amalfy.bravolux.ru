@@ -1,75 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
-@font-face {
-    font-family: 'Igrasans';
-    src: url("font/Igrasans.woff2") format("woff2");
-    src: url("font/Igrasans.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-}
-
-body {
-    font-family: 'Manrope', sans-serif;
-    font-weight: normal;
-    font-size: 15px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Igrasans', sans-serif;
-    margin: 0;
-}
-
-h2 {
-    font-size: 30px;
-    line-height: 130%;
-}
-
-h3 {
-    font-size: 20px;
-    line-height: 130%;
-}
-
-p {
-    margin: 0;
-}
-
-ul {
-    list-style: none;
-}
-
-button {
-    padding: 0;
-    margin: 0;
-    border: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.main.flex--none {
-    width: 100%;
-    display: block;
-    min-height: auto;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
-    padding: 0 15px;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
 
 .s-design-info {
     padding: 30px 0;
@@ -156,31 +85,6 @@ button {
     height: 1px;
 }
 
-.breadcrumbs {
-    font-family: Manrope;
-    font-weight: normal;
-    margin: 20px 0;
-}
-
-.breadcrumbs__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.breadcrumbs span {
-    margin: 0 10px;
-}
-
-.breadcrumbs__item {
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 19px;
-    color: #000000;
-}
 
 /* Секция дизайна ногтей */
 

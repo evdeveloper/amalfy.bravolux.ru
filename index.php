@@ -1,16 +1,18 @@
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="services.css">
-    <link rel="stylesheet" href="http://amalfy.bravolux.ru/demo/v2/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="http://amalfy.bravolux.ru/demo/v2/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="http://amalfy.bravolux.ru/demo/v2/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-
-    <link rel="stylesheet" href="manikur.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="services.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blocks/cs/banner.css">
+    <link rel="stylesheet" href="blocks/cs/header.css">
+    <link rel="stylesheet" href="blocks/cs/footer.css">
+    <link rel="stylesheet" href="blocks/cs/prices-table.css">
     <link rel="stylesheet" href="index.css">
 
 
@@ -18,9 +20,7 @@
 </head>
 
 <body>
-    <div class="nav-mobile-div">
-
-
+    <!-- <div class="nav-mobile-div">
         <div class="mobile-menu-header">
             <div class="header-div-mobile">
                 <div class="exit" onclick="exit_menu()"></div>
@@ -143,95 +143,16 @@
                 <button class="register-online-button"><span class="register-online-button-text">Написать в WhatsApp</span></button>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="wrapper">
-        <header class="header ">
-            <div class="header-div ">
-                <img class="menu-button" onclick="open_menu()" src="img/menu-button.png" alt=" ">
-                <a class="logo-link " href="index.html">
-                    <picture class="logo ">
-                        <source srcset="img/logo1920.png " media="(min-width: 1920px) ">
-                        <source srcset="img/logo1000.png " media="(min-width: 1000px) ">
-                        <source srcset="img/logo768.png " media="(min-width: 768px) ">
-                        <source srcset="img/logo320.png " media="(min-width: 320px) ">
-                        <img src="img/logo1920.png" alt="logo ">
-                    </picture>
-                </a>
-                <div class="info-and-menu ">
-                    <div class="info ">
-                        <div class="time-div ">
-                            <img class="time-img " src="img/time.png" alt=" ">
-                            <span class="time-text ">Ежедневно с 10 до 22</span>
-                        </div>
-                        <div class="location-div ">
-                            <img class="location-img " src="img/location.png" alt=" ">
-                            <span class="location-text ">Белорусская, Александра Невского, 19–25</span>
-                        </div>
-                        <a href="tel: +7 (495) 132-00-03 " class="telephon-number ">+7 (495) 132-00-03</a>
-                        <span class="order order-js" onclick="open_register()">Записаться онлайн</span>
-
-                    </div>
-                    <span class="line "></span>
-                    <nav class="nav ">
-                        <div class="link-ease-in-out ">
-                            <a class="menu-item " href="services.html">Услуги</a>
-                        </div>
-                        <div class="link-ease-in-out ">
-                            <a class="menu-item " href="index.html">Дизайны</a>
-                        </div>
-                        <div class="link-ease-in-out ">
-                            <a class="menu-item " href="index.html">Прайс</a>
-                        </div>
-                        <div class="link-ease-in-out ">
-                            <a class="menu-item " href="index.html">О студии</a>
-                        </div>
-                        <div class="link-ease-in-out ">
-                            <a class="menu-item " href="index.html">Отзывы</a>
-                        </div>
-                        <div class="link-ease-in-out ">
-                            <a class="menu-item " href="index.html">Статьи</a>
-                        </div>
-                        <div class="link-ease-in-out ">
-                            <a class="menu-item " href="index.html">Акции</a>
-                        </div>
-                        <div class="link-ease-in-out ">
-                            <a class="menu-item " href="index.html">Контакты</a>
-                        </div>
-
-                    </nav>
-
-
-
-                </div>
-                <a class="telephone " href="tel: +7 (495) 132-00-03 " alt=" "></a>
-            </div>
-        </header>
+        <?php include ("blocks/header.php");?>
         <main class="main">
-            <div class="container-first">
+            <?php include ("blocks/banner.php");?>
+            <?php include ("blocks/prices-table.php");?>
+            <?php include ("blocks/footer.php");?>
+            
 
-                <div class="main-banner main-banner-main-page">
-                    <div class="baner-container">
-                        <div class="banner-content-container banner-content-container-none">
-                            <p class="manikur">Роскошный образ</p>
-                            <p class="main-banner-text">в салоне красоты Amalfi Nail&Beauty!</p>
-                            <button class="main-banner-button"><span class="main-banner-button-text">Записаться</span></button>
-                        </div>
-
-                        <img class="banner-img" src="img/devushka-blondinka-portret-4801.png" alt="logo">
-
-
-                        <img class="amalfi" src="img/amalfi-blue.png" alt="logo">
-
-                    </div>
-                </div>
-            </div>
-            <div class="banner-content-container banner-content-container-none-mobile">
-                <p class="manikur">Роскошный образ</p>
-                <p class="main-banner-text">в салоне красоты Amalfi Nail&Beauty!</p>
-                <button class="main-banner-button"><span class="main-banner-button-text">Записаться</span></button>
-            </div>
-
-            <div class="price-listcontainer-main">
+            <!-- <div class="price-listcontainer-main">
                 <div class="price-head-register">
                     <p class="price-list-head">Цены на основные услуги</p>
                     <a class="register register-none" href="index.html"><span class="register-text">Открыть полный прайс лист</span></a>
@@ -646,7 +567,6 @@
 
             </div>
 
-
             <div class="present-container">
                 <div class="give-present-div">
                     <p class="give-present-text">Дарите с удовольствием!</p>
@@ -778,11 +698,10 @@
                     <div class="wrap-opacity "></div>
                 </div>
 
-            </div>
-
+            </div> -->
 
         </main>
-        <footer class="footer ">
+        <!-- <footer class="footer ">
             <div class="footer-div ">
                 <div class="footer-nav ">
                     <a class="logo-link logo-footer " href="index.html">
@@ -872,205 +791,11 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> -->
     </div>
-    <script data-cfasync="false" src="5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
-    <script src="slider-two.js"></script>
-    <script>
-        $(document).ready(function() {
-            const slider = $(".end-galery").owlCarousel({
-                loop: true,
-                nav: true,
-            });
-        });
-        var slideIndex_salon = 1;
-        showSlides_salon(slideIndex_salon);
-
-        function currentSlide_salon(n) {
-            showSlides_salon(slideIndex_salon = n);
-        }
-
-        $(".n").click(function() {
-            showSlides_salon(slideIndex_salon += 1);
-
-        });
-
-        $(".p").click(function() {
-            showSlides_salon(slideIndex_salon -= 1);
-        });
-
-
-
-        function showSlides_salon(n) {
-            var i;
-            var dots_salon = document.getElementsByClassName("salon-dot ");
-            var slides_salon = document.getElementsByClassName("galery-div-slide-salon ");
-
-            if (n > slides_salon.length) {
-                slideIndex_salon = 1
-            }
-            if (n < 1) {
-                slideIndex_salon = slides_salon.length
-            }
-
-            for (i = 0; i < slides_salon.length; i++) {
-                slides_salon[i].style.display = "none ";
-            }
-
-            for (i = 0; i < dots_salon.length; i++) {
-                dots_salon[i].className = dots_salon[i].className.replace(" active ", " ");
-            }
-
-            slides_salon[slideIndex_salon - 1].style.display = "flex ";
-            dots_salon[slideIndex_salon - 1].className += " active ";
-
-
-        }
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     </script>
-    <script>
-        $(document).ready(function() {
-            const slider = $("#slider ").owlCarousel({
-                items: 4,
-
-                loop: true,
-                margin: 30,
-                nav: true,
-                responsive: {
-                    320: {
-                        items: 1
-                    },
-                    768: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 3
-                    },
-                    1290: {
-                        items: 4
-                    }
-
-                }
-            });
-        });
-
-
-        let initVideoSecond = () => {
-            var tag = document.createElement('script');
-            tag.src = "https://www.youtube.com/iframe_api ";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-            youtube = true;
-
-
-            window.onYouTubePlayerAPIReady = playerInitSecond;
-        };
-
-        let playerInitSecond = function() {
-            function onPlayerReady(event) {
-                event.target.playVideo();
-            }
-
-            let player = new YT.Player('mobile', {
-                height: '215',
-                width: '467',
-
-                videoId: 'oRw-5a-cxdE',
-                events: {
-                    'onReady': onPlayerReady
-                },
-                playerVars: {
-                    autoplay: 1,
-                    rel: 0,
-                    showinfo: 0,
-                    ecver: 2
-                }
-            });
-        }
-    </script>
-    <script>
-        let initVideo = () => {
-            var tag = document.createElement('script');
-            tag.src = "https://www.youtube.com/iframe_api ";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-            youtube = true;
-
-            window.onYouTubePlayerAPIReady = playerInit;
-
-        };
-
-        let playerInit = function() {
-            function onPlayerReady(event) {
-                event.target.playVideo();
-            }
-
-            let player = new YT.Player('img', {
-                height: '540',
-                width: '290',
-
-                videoId: 'oRw-5a-cxdE',
-                events: {
-                    'onReady': onPlayerReady
-                },
-                playerVars: {
-                    autoplay: 1,
-                    rel: 0,
-                    showinfo: 0,
-                    ecver: 2
-                }
-            });
-        }
-    </script>
-
-    <script>
-    </script>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlide() {
-            showSlides(slideIndex += 1);
-        }
-
-        function minusSlide() {
-            showSlides(slideIndex -= 1);
-        }
-
-        function showSlides(n) {
-            var i;
-
-
-            var slides_win = document.getElementsByClassName("who-win-div ");
-
-
-
-            if (n > slides_win.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides_win.length
-            }
-
-            for (i = 0; i < slides_win.length; i++) {
-                slides_win[i].style.display = "none ";
-            }
-
-            slides_win[slideIndex - 1].style.display = "flex ";
-
-        }
-        $(".owl-next").click(function() {
-            showSlides_salon(slideIndex_salon += 1);
-
-        });
-
-        $(".owl-prev").click(function() {
-            showSlides_salon(slideIndex_salon -= 1);
-        });
-    </script>
-
-
 </body>
 
 </html>
