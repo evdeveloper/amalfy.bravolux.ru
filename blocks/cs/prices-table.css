@@ -1,3 +1,7 @@
+.s-price-list {
+    padding: 30px 0;
+}
+
 .price-list__top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12,4 +16,114 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+.price-list__inner {
+    position: relative;
+}
+
+.price-list__table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #E7E7E7;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.price-list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+    color: #000000;
+    padding: 8px 0;
+    -webkit-box-shadow: inset 0px -1px 0px #e7e7e7;
+    box-shadow: inset 0px -1px 0px #e7e7e7;
+}
+
+.price-list__col {
+    width: 50%;
+    max-width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.price-list__price {
+    font-weight: bold;
+    text-align: right;
+}
+
+.price-list__col:not(:last-child) {
+    margin-right: 70px;
+}
+
+@media screen and (max-width: 900px) {
+    .price-list__col:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .price-list__col:not(:last-child) {
+        margin-right: 0;
+    }
+    .price-list__table {
+        flex-wrap: wrap;
+    }
+    .price-list__col {
+        width: 100%;
+        max-width: 100%;
+    }
+    .price-list__col:last-child .price-list__item:last-child {
+        box-shadow: none;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .price-list__top {
+        flex-direction: column;
+    }
+    .price-list__title {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .price-list__table {
+        padding: 0;
+        border: 0;
+    }
+    .price-list__inner {
+        padding-bottom: 60px;
+    }
+    .price-list__top .Button {
+        position: absolute;
+        white-space: nowrap;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .price-list__col:last-child .price-list__item:last-child {
+        -webkit-box-shadow: inset 0px -1px 0px #e7e7e7;
+        box-shadow: inset 0px -1px 0px #e7e7e7;
+        padding-bottom: 8px;
+    }
 }

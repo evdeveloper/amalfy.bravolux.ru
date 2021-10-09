@@ -9,7 +9,7 @@
             </picture>
             <div class="banner__title">Роскошный образ</div>
             <div class="banner__text">в салоне красоты Amalfi Nail&Beauty!</div>
-            <button class="Button">Записаться</button>
+            <button type="button" class="Button Button-fill">Записаться</button>
         </div>
     </div>
 </div>

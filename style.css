@@ -32,6 +32,12 @@ h2 {
     font-size: 30px;
     line-height: 130%;
 }
+@media screen and (max-width: 320px) {
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
 
 h3 {
     font-size: 20px;
@@ -122,16 +128,47 @@ footer {
     color: #000000;
 }
 
+.section__title {
+    margin-bottom: 20px;
+}
+
 .Button {
-    background: #00D2D2;
+    display: inline-flex;
+    align-items: center;
     border-radius: 50px;
     color: #000000;
     font-size: 15px;
     flex: 0 0 auto;
-    padding: 0 40px;
     transition: all .3s;
-    height: 55px;
     cursor: pointer;
+}
+
+.Button.Button-fill {
+    background-color: #00D2D2;
+    padding: 0 40px;
+    height: 55px;
+}
+
+.Button.Button-fill:hover {
+    background-color: #99EDED;
+}
+
+.Button.Button-fill:active {
+    background-color: #00D2D2;
+}
+
+.Button.Button-outline {
+    border: 1px solid #00D2D2;
+    padding: 0 30px;
+    height: 40px;
+}
+
+.Button.Button-outline:hover {
+    background-color: #EBFFFF;
+}
+
+.Button.Button-outline:active {
+    background-color: #00D2D2;
 }
 
 @media screen and (max-width: 414px) {

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="blocks/cs/banner.css">
     <link rel="stylesheet" href="blocks/cs/header.css">
-    <link rel="stylesheet" href="blocks/cs/footer.css">
+    <link rel="stylesheet" href="blocks/cs/trust.css">
     <link rel="stylesheet" href="blocks/cs/prices-table.css">
     <link rel="stylesheet" href="index.css">
 
@@ -20,135 +20,13 @@
 </head>
 
 <body>
-    <!-- <div class="nav-mobile-div">
-        <div class="mobile-menu-header">
-            <div class="header-div-mobile">
-                <div class="exit" onclick="exit_menu()"></div>
-                <a class="logo-link " href="index.html">
-                    <picture class="logo ">
-                        <source srcset="img/logo1920.png" media="(min-width: 1920px)">
-                        <source srcset="img/logo1000.png" media="(min-width: 1000px)">
-                        <source srcset="img/logo768.png" media="(min-width: 768px)">
-                        <source srcset="img/logo320.png" media="(min-width: 320px)">
-                        <img src="img/logo1920.png" alt="logo">
-                    </picture>
-                </a>
-                <a class="telephone menu-telephone" href="tel: +7 (495) 132-00-03" alt=""></a>
-            </div>
-        </div>
-
-
-        <div class="menu-services-div">
-            <div class="menu-services">
-                <div class="menu" onclick="open_menu_part()"><span class="menu-text">Меню</span></div>
-                <div class="services" onclick="open_services_part()"><span class="services-text">Услуги</span></div>
-            </div>
-        </div>
-        <nav class="nav-mobile">
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="services.html">Услуги</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Дизайны</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Прайс</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">О студии</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Отзывы</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Статьи</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Акции</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Контакты</a>
-            </div>
-
-        </nav>
-        <nav class="nav-mobile nav-mobile-services">
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Маникюр</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Педикюр</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Дизайны</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Покрытия</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Наращивание ногтей</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Brow Bar</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Ламинирование бровей</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Макияж и причёска</a>
-            </div>
-            <div class="mobile-menu-item">
-                <a class="menu-item-mobile" href="index.html">Наращивание ресниц</a>
-            </div>
-
-
-        </nav>
-        <div class="menu-line-div"><span class="menu-line"></span></div>
-        <div class="navigation-div-menu">
-            <span class="telephon-number-menu-mobile" style="display: block;">+7 (495) 132-00-03</span>
-            <span class="order-menu-mobile order-js" style="display:block;" onclick="open_register()">Записаться онлайн</span>
-            <div class="time-div-menu-mobile" style="display:flex; justify-content: center;">
-                <img class="time-img" src="img/time.png" alt=" ">
-                <span class="time-text-menu-mobile">Ежедневно с 10 до 22</span>
-            </div>
-            <div class="location-div-menu-mobile" style="display:flex;">
-                <img class="location-img" src="img/location.png" alt=" ">
-                <span class="location-text-menu-mobile">Белорусская, Александра Невского, 19–25</span>
-            </div>
-            <div class="soc-div-menu">
-                <a class="media-item-menu soc-img" href="index.html">
-                    <img class="soc-pic-menu" src="img/instagram.svg" alt="">
-                </a>
-                <a class="media-item-menu soc-img soc-img-face" href="index.html">
-                    <img class="soc-pic-menu face" src="img/face.svg" alt="">
-                </a>
-                <a class="media-item-menu soc-img" href="index.html">
-                    <img class="soc-pic-menu" src="img/wp.svg" alt="">
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="register-online-container">
-        <div class="register-exit-div">
-            <div class="register-exit-img" onclick="exit_register()"></div>
-        </div>
-        <div class="register-online-content-div">
-            <div class="register-online-content">
-                <p class="register-online-text">Записаться онлайн</p>
-                <p class="register-online-description">Онлайн запись позволяет выбрать студию, время, услугу и мастера. Это займет около 3 минут.</p>
-                <button class="register-online-button"><span class="register-online-button-text">Записаться онлайн</span></button>
-            </div>
-            <div class="register-online-content register-wp">
-                <p class="register-online-text">Записаться WhatsApp</p>
-                <p class="register-online-description">Наши операторы ответят через 5 мин. Подберут удобное время и ответят на любые вопросы.</p>
-                <button class="register-online-button"><span class="register-online-button-text">Написать в WhatsApp</span></button>
-            </div>
-        </div>
-    </div> -->
     <div class="wrapper">
         <?php include ("blocks/header.php");?>
         <main class="main">
             <?php include ("blocks/banner.php");?>
             <?php include ("blocks/prices-table.php");?>
+            <?php include ("blocks/trust.php");?>
+            <?php include ("blocks/gallery-salon.php");?>
             <?php include ("blocks/footer.php");?>
             
 
@@ -701,99 +579,18 @@
             </div> -->
 
         </main>
-        <!-- <footer class="footer ">
-            <div class="footer-div ">
-                <div class="footer-nav ">
-                    <a class="logo-link logo-footer " href="index.html">
-                        <picture class="logo-footer ">
-                            <source srcset="img/logo1920.png " media="(min-width: 1920px) ">
-                            <source srcset="img/logo1000.png " media="(min-width: 1000px) ">
-                            <source srcset="img/logo768.png " media="(min-width: 768px) ">
-                            <source srcset="img/logo320.png " media="(min-width: 320px) ">
-                            <img src="img/logo1920.png" alt="logo ">
-                        </picture>
-                    </a>
-                    <div class="navigation-div ">
-                        <span class="telephon-number telephon-number-footer telephon-number-footer-mobile ">+7 (495) 132-00-03</span>
-                        <span class="order-footer-mobile order-js " onclick="open_register() ">Записаться онлайн</span>
-                        <div class="time-div-footer-mobile ">
-                            <img class="time-img " src="img/time.png" alt=" ">
-                            <span class="time-text time-text-footer " style="font-family: Manrope; ">Ежедневно с 10 до 22</span>
-                        </div>
-                        <div class="location-div location-div-footer ">
-                            <img class="location-img " src="img/location.png" alt=" ">
-                            <span class="location-text location-text-footer ">Белорусская, Александра Невского, 19–25</span>
-                        </div>
-                        <div class="time-div time-div-footer ">
-                            <img class="time-img " src="img/time.png" alt=" ">
-                            <span class="time-text time-text-footer ">Ежедневно с 10 до 22</span>
-                        </div>
-                        <a href="tel: +7 (495) 132-00-03 " class="telephon-number telephon-number-footer ">+7 (495) 132-00-03</a>
-                    </div>
-                </div>
-                <span class="footer-line-first "></span>
-                <div class="footer-nav-menu ">
-                    <div class="footer-link ">
-                        <div class="footer-nav-menu-item ">
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="manikur.html">Маникюр</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Педикюр</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Покрытия</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Наращивание</a>
-                            </div>
-                        </div>
-                        <div class="footer-nav-menu-item ">
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="services.html">Услуги</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Дизайны</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Прайс</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">О студии</a>
-                            </div>
-                        </div>
-                        <div class="footer-nav-menu-item ">
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Отзывы</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Статьи</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Акции</a>
-                            </div>
-                            <div class="link-ease-in-out menu-item-footer ">
-                                <a class="menu-item " href="index.html">Контакты</a>
-                            </div>
-                        </div>
-                    </div>
-                    <span class="footer-line-second "></span>
-                    <div class="media-contacts ">
-                        <span class="mail "><a href="http://amalfy.bravolux.ru/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c5a4a8a4a9a3aca7a0a4b0b1bcebb7b085bca4aba1a0bdebb7b0">[email&#160;protected]</a></span>
-                        <div class="soc-div ">
-                            <a class="media-item " href="index.html">
-                                <div class="soc-img soc-img-insta "><img class="soc-pic " src="img/instagram.svg" alt=" "></div><span class="media-text ">Instagram</span></a>
-                            <a class="media-item " href="index.html">
-                                <div class="soc-img soc-img-face "><img class="soc-pic face " src="img/face.svg" alt=" "></div><span class="media-text ">facebook</span></a>
-                            <a class="media-item " href="index.html">
-                                <div class="soc-img soc-img-wp "><img class="soc-pic " src="img/wp.svg" alt=" "></div><span class="media-text ">whatsapp</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer> -->
     </div>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="blocks/cs/gallery-salon.css">
+    <link rel="stylesheet" href="blocks/cs/services-video.css">
+    <link rel="stylesheet" href="blocks/cs/video.css">
+    <link rel="stylesheet" href="blocks/cs/footer.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="blocks/js/gallery-salon.js"></script>
+    <script src="blocks/js/video.js"></script>
     <script src="script.js"></script>
     </script>
 </body>

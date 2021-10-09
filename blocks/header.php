@@ -21,14 +21,14 @@
                     <a class="header__call callback" href="#"><span>Записаться онлайн</span></a>
                 </div>
                 <nav class="header-nav">
-                    <a href="#">Услуги</a>
-                    <a href="#">Дизайны</a>
-                    <a href="#">Прайс</a>
-                    <a href="#">О студии</a>
-                    <a href="#">Отзывы</a>
-                    <a href="#">Статьи</a>
-                    <a href="#">Акции</a>
-                    <a href="#">Контакты</a>
+                    <a class="header-nav__link" href="#"><span>Услуги</span></a>
+                    <a class="header-nav__link" href="#"><span>Дизайны</span></a>
+                    <a class="header-nav__link" href="#"><span>Прайс</span></a>
+                    <a class="header-nav__link" href="#"><span>О студии</span></a>
+                    <a class="header-nav__link" href="#"><span>Отзывы</span></a>
+                    <a class="header-nav__link" href="#"><span>Статьи</span></a>
+                    <a class="header-nav__link" href="#"><span>Акции</span></a>
+                    <a class="header-nav__link" href="#"><span>Контакты</span></a>
                 </nav>
             </div>
             <a class="phone-btn" href="tel:+74951320003">
