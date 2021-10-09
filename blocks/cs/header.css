@@ -117,13 +117,13 @@
     margin-right: 5px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1150px) {
     .clock, .location {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 980px) {
     .header__clock, .header__location {
         display: none;
     }
