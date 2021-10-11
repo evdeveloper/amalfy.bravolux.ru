@@ -1,8 +1,12 @@
 <header class="header">
     <div class="container">
         <div class="header__inner">
-            <div class="burger js-mobile-menu">
-                <img src="img/burger.svg" alt="burger">
+            <div class="header__burger">
+                <div class="sandwich">
+                    <div class="sandwich__line sandwich__line--top"></div>
+                    <div class="sandwich__line sandwich__line--middle"></div>
+                    <div class="sandwich__line sandwich__line--bottom"></div>
+                </div>
             </div>
             <a href="#" class="header__logo logo">
                 <img src="img/logo.svg" alt="logo">

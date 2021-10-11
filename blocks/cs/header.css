@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        padding: 17px 5px;
+        padding: 17.5px 5px;
     }
 }
 
@@ -89,7 +89,7 @@
     left: 0;
     right: 0;
     height: 0;
-    background: rgba(0,210,210, 0.5);
+    background: rgba(0, 210, 210, 0.5);
     -o-transition: all 0.2s ease-out;
     -webkit-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -103,28 +103,33 @@
     margin-right: 30px;
 }
 
-.clock, .location {
+.clock,
+.location {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     font-size: 14px;
 }
 
-.clock img, .location img {
+.clock img,
+.location img {
     margin-right: 5px;
 }
 
 @media screen and (max-width: 1150px) {
-    .clock, .location {
+
+    .clock,
+    .location {
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 980px) {
-    .header__clock, .header__location {
+    .header__clock,
+    .header__location {
         display: none;
     }
 }
@@ -189,6 +194,8 @@
 .callback:after {
     content: '';
     position: absolute;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s;
     left: 0;
     width: 100%;
@@ -197,7 +204,7 @@
     top: calc(100% - 4px);
 }
 
-.burger,
+.header__burger,
 .phone-btn {
     display: none;
     -webkit-box-align: center;
@@ -217,8 +224,7 @@
 }
 
 @media screen and (max-width: 768px) {
-
-    .burger,
+    .header__burger,
     .phone-btn {
         display: -webkit-box;
         display: -ms-flexbox;

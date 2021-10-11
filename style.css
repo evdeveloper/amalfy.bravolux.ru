@@ -182,4 +182,44 @@ footer {
 }
 
 
+.sandwich {
+    width: 20px;
+    cursor: pointer;
+    height: 14px;
+    position: relative;
+}
+
+.sandwich__line {
+    background-color: #00D2D2;
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: all linear .4s;
+    width: 100%;
+}
+
+.sandwich__line--top {
+    top:0;
+}
+.sandwich__line--middle {
+    top:6px;
+}
+.sandwich__line--bottom {
+    top:12px;
+}
+
+.sandwich--active .sandwich__line--top {
+    top: 6px;
+    transform: rotate(45deg);
+}
+.sandwich--active .sandwich__line--middle {
+    opacity: 0;
+}
+.sandwich--active .sandwich__line--bottom {
+    top: 6px;
+    transform: rotate(-45deg);
+}
+
+
 
