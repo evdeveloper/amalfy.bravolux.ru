@@ -1,4 +1,4 @@
-<section class="s-price-list">
+<section class="s-price-list section">
     <div class="container">
         <div class="price-list__inner">
             <div class="price-list__top">

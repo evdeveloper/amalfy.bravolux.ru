@@ -1,4 +1,4 @@
-<section class="s-trust">
+<section class="s-trust section">
     <div class="container">
         <h2 class="section__title">Доверьте нам работу над красотой!</h2>
         <div class="trust">

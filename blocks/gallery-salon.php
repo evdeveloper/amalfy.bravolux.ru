@@ -1,4 +1,4 @@
-<section class="s-ph-salon">
+<section class="s-ph-salon section">
     <div class="container">
         <h2 class="section__title">Фотографии салона</h2>
         <div class="ph-salon">

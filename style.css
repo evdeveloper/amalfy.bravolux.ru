@@ -32,6 +32,7 @@ h2 {
     font-size: 30px;
     line-height: 130%;
 }
+
 @media screen and (max-width: 320px) {
     h2 {
         font-size: 24px;
@@ -58,15 +59,25 @@ iframe,
 img,
 svg,
 video,
-textarea { vertical-align: middle; }
+textarea {
+    vertical-align: middle;
+}
 
-textarea { resize: none; }
+textarea {
+    resize: none;
+}
 
-section { position: relative; }
+section {
+    position: relative;
+}
 
 input,
 select,
-button { outline: none; border: none; background-color: transparent; }
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
 
 ul {
     list-style: none;
@@ -81,9 +92,18 @@ button {
 }
 
 .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.section {
+    padding: 30px 0;
 }
 
 .container {
@@ -94,11 +114,15 @@ button {
 }
 
 main.main {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
     flex: 1 0 auto;
     overflow: hidden;
 }
 
 footer {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
 }
 
@@ -133,12 +157,20 @@ footer {
 }
 
 .Button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     border-radius: 50px;
     color: #000000;
     font-size: 15px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s;
     cursor: pointer;
 }
@@ -195,31 +227,38 @@ footer {
     height: 2px;
     left: 0;
     position: absolute;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
     transition: all linear .4s;
     width: 100%;
 }
 
 .sandwich__line--top {
-    top:0;
+    top: 0;
 }
+
 .sandwich__line--middle {
-    top:6px;
+    top: 6px;
 }
+
 .sandwich__line--bottom {
-    top:12px;
+    top: 12px;
 }
 
 .sandwich--active .sandwich__line--top {
     top: 6px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 .sandwich--active .sandwich__line--middle {
     opacity: 0;
 }
+
 .sandwich--active .sandwich__line--bottom {
     top: 6px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-
-
-

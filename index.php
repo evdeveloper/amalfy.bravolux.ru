@@ -26,6 +26,10 @@
             <?php include ("blocks/banner.php");?>
             <?php include ("blocks/prices-table.php");?>
             <?php include ("blocks/trust.php");?>
+            <?php include ("blocks/services-our.php");?>
+            <?php include ("blocks/nice-offers.php");?>
+            <?php include ("blocks/care.php");?>
+            <?php include ("blocks/duel.php");?>
             <?php include ("blocks/gallery-salon.php");?>
             <?php include ("blocks/footer.php");?>
             
@@ -588,10 +592,16 @@
     <link rel="stylesheet" href="blocks/cs/video.css">
     <link rel="stylesheet" href="blocks/cs/popup.css">
     <link rel="stylesheet" href="blocks/cs/select.css">
+    <link rel="stylesheet" href="blocks/cs/services-our.css">
+    <link rel="stylesheet" href="blocks/cs/nice-offers.css">
+    <link rel="stylesheet" href="blocks/cs/care.css">
+    <link rel="stylesheet" href="blocks/cs/duel.css">
     <link rel="stylesheet" href="blocks/cs/footer.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="blocks/js/gallery-salon.js"></script>
+    <script src="blocks/js/care.js"></script>
+    <script src="blocks/js/duel.js"></script>
     <script src="blocks/js/video.js"></script>
     <script src="blocks/js/select.js"></script>
     <script src="script.js"></script>

@@ -1,0 +1,220 @@
+
+.nice-offers__banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: relative;
+    border-radius: 15px;
+    height: 340px;
+    overflow: hidden;
+    padding: 50px 40px 40px;
+    margin-bottom: 30px;
+}
+
+.nice-offers__text {
+    width: 50%;
+}
+
+.nice-offers__text h3 {
+    font-size: 40px;
+    line-height: 140%;
+    margin-bottom: 15px;
+}
+
+.nice-offers__text p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.nice-offers__banner picture {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.nice-offers__banner picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.nice-offers__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -30px;
+}
+
+.nice-offers__top {
+    border-radius: 15px;
+    overflow: hidden;
+    height: 275px;
+    margin-bottom: 15px;
+}
+
+.nice-offers__body {
+    font-size: 20px;
+}
+
+.nice-offers__item {
+    position: relative;
+    width: calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+    margin: 0 30px 30px 0;
+    cursor: pointer;
+    color: #000;
+}
+
+.nice-offers__item:after {
+    content: '';
+    width: calc(100% + 20px);
+    height: calc(100% + 30px);
+    position: absolute;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    z-index: -1;
+    top: -10px;
+    left: -10px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 7px 20px rgba(39, 47, 77, 0.2);
+    box-shadow: 0px 7px 20px rgba(39, 47, 77, 0.2);
+    border-radius: 15px;
+}
+
+.nice-offers__item:hover:after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.nice-offers__top img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+    .nice-offers__banner {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .nice-offers__top {
+        height: 190px;
+    }
+
+    .nice-offers__body {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nice-offers__text h3 {
+        font-size: 30px;
+        line-height: 120%;
+        margin-bottom: 15px;
+    }
+
+    .nice-offers__banner {
+        height: 330px;
+        margin-bottom: 30px;
+    }
+
+    .nice-offers__top {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nice-offers__banner {
+        padding: 30px;
+    }
+
+    .nice-offers__text h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nice-offers__banner {
+        padding: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 450px;
+    }
+
+    .nice-offers__banner picture {
+        height: 260px;
+    }
+
+    .nice-offers__banner picture img {
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .nice-offers__text {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        background: #EBFFFF;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .nice-offers__text .Button.Button-fill {
+        height: 45px;
+    }
+
+    .nice-offers__text h3 {
+        font-size: 20px;
+    }
+
+    .section__title {
+        text-align: center;
+    }
+
+    .nice-offers__list {
+        margin-right: 0;
+    }
+
+    .nice-offers__item {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .nice-offers__list {
+        margin-right: 0;
+    }
+
+    .nice-offers__item {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .nice-offers__banner {
+        margin-bottom: 20px;
+    }
+}
