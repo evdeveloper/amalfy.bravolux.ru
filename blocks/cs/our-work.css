@@ -1,0 +1,111 @@
+.our-work__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.our-work__list {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 380px;
+    margin-right: -20px;
+}
+
+.our-work__item:first-child {
+    position: absolute;
+    width: calc(40% - 16px);
+    max-width: 360px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    left: 0;
+    height: 380px;
+}
+
+.our-work__item {
+    position: relative;
+    width: calc(24.5% - 16px);
+    max-width: calc(24.5% - 16px);
+    height: 180px;
+    margin: 0 20px 20px 0;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.our-work__item:after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 219, 238, 0.6);
+}
+
+.our-work__item:hover {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0px 5.58095px 15.9456px rgba(39, 47, 77, 0.4);
+    box-shadow: 0px 5.58095px 15.9456px rgba(39, 47, 77, 0.4);
+}
+
+.our-work__item:hover:after {
+    opacity: 1;
+}
+
+.our-work__item img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1190px) {
+    .our-work__item {
+        width: calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .our-work__item:first-child {
+        height: calc(100% - 20px);
+    }
+
+    .our-work__item {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .our-work__list {
+        padding-left: 350px;
+    }
+
+    .our-work__item {
+        width: calc(33.333% - 13.5px);
+        max-width: calc(33.333% - 13.5px);
+        margin: 0 10px 10px 0;
+    }
+
+    .our-work__item:first-child {
+        height: calc(100% - 10px);
+    }
+}

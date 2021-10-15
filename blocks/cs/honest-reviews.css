@@ -1,0 +1,36 @@
+.honest-reviews {
+    width: 100%;
+    padding: 45px 0;
+    height: 340px;
+    background-image: url('../../img/honest-reviews-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.honest-reviews__title {
+    margin-bottom: 20px;
+}
+
+.honest-reviews__col p {
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.honest-reviews__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.honest-reviews__col:first-child {
+    max-width: 380px;
+}
+
+.video-honest {
+    position: relative;
+    z-index: 1;
+}

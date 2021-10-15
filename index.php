@@ -25,11 +25,15 @@
         <main class="main">
             <?php include ("blocks/banner.php");?>
             <?php include ("blocks/prices-table.php");?>
+            <?php include ("blocks/services-video.php");?>
             <?php include ("blocks/trust.php");?>
             <?php include ("blocks/services-our.php");?>
             <?php include ("blocks/nice-offers.php");?>
             <?php include ("blocks/care.php");?>
+            <?php include ("blocks/our-work.php");?>
             <?php include ("blocks/duel.php");?>
+            <?php include ("blocks/honest-reviews.php");?>
+            <?php include ("blocks/friends.php");?>
             <?php include ("blocks/gallery-salon.php");?>
             <?php include ("blocks/footer.php");?>
             
@@ -594,6 +598,10 @@
     <link rel="stylesheet" href="blocks/cs/select.css">
     <link rel="stylesheet" href="blocks/cs/services-our.css">
     <link rel="stylesheet" href="blocks/cs/nice-offers.css">
+    <link rel="stylesheet" href="blocks/cs/services-video.css">
+    <link rel="stylesheet" href="blocks/cs/honest-reviews.css">
+    <link rel="stylesheet" href="blocks/cs/our-work.css">
+    <link rel="stylesheet" href="blocks/cs/friends.css">
     <link rel="stylesheet" href="blocks/cs/care.css">
     <link rel="stylesheet" href="blocks/cs/duel.css">
     <link rel="stylesheet" href="blocks/cs/footer.css">

@@ -22,7 +22,7 @@
                 </div>
                 <div class="trust__title">Студия в сердце столицы</div>
                 <div class="trust__text">Салон красоты бизнес-класса в центре Москвы у метро «Белорусская»</div>
-                <a href="#" class="trust__link">
+                <a href="#" class="trust__link main-link">
                     <span>Адрес студии</span>
                     <img src="blocks/img/arrow-left.svg" alt="img">
                 </a>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="trust__title">Роскошная атмосфера</div>
                 <div class="trust__text">Погрузитесь в красивое стильное пространство, где хочется находиться!</div>
-                <a href="#" class="trust__link">
+                <a href="#" class="trust__link main-link">
                     <span>Смотреть фото</span>
                     <img src="blocks/img/arrow-left.svg" alt="img">
                 </a>
