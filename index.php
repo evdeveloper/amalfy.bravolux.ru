@@ -610,6 +610,7 @@
     <script src="blocks/js/gallery-salon.js"></script>
     <script src="blocks/js/care.js"></script>
     <script src="blocks/js/duel.js"></script>
+    <script src="blocks/js/our-work.js"></script>
     <script src="blocks/js/video.js"></script>
     <script src="blocks/js/select.js"></script>
     <script src="script.js"></script>
