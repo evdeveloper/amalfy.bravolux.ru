@@ -2,6 +2,7 @@
     width: 100%;
     padding: 45px 0;
     height: 340px;
+    background-color: #EBFFFF;
     background-image: url('../../img/honest-reviews-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +11,34 @@
 
 .honest-reviews__title {
     margin-bottom: 20px;
+}
+
+.video.video-honest {
+    padding: 0;
+}
+
+.video.video-honest .video__clip {
+    padding-bottom: 52%;
+}
+
+.video.video-honest .video__clip:before,
+.video.video-honest .video__media {
+    border-radius: 50px;
+}
+
+.video-honest__border {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+    left: 0;
+    top: -5px;
+    height: calc(100% + 10px);
+    width: 100%;
+}
+
+.honest-reviews__col {
+    width: calc(50% - 100px);
+    max-width: calc(50% - 100px);
 }
 
 .honest-reviews__col p {
@@ -26,11 +55,80 @@
     justify-content: space-between;
 }
 
-.honest-reviews__col:first-child {
-    max-width: 380px;
-}
-
 .video-honest {
     position: relative;
     z-index: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .honest-reviews__col {
+        width: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .honest-reviews {
+        position: relative;
+        background-size: 0;
+        height: auto;
+        padding-bottom: 110px;
+    }
+
+    .honest-reviews .Button {
+        width: 100%;
+        max-width: 255px;
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .honest-reviews__inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .honest-reviews__col {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .video.video-honest .video__clip {
+        max-width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 414px) {
+    .honest-reviews {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .honest-reviews .Button {
+        width: calc(100% - 40px);
+        max-width: calc(100% - 40px);
+    }
+
+    .video-honest__border {
+        display: none;
+    }
+
+    .video.video-honest .video__clip {
+        padding-bottom: 56.25%;
+    }
+
+    .video.video-honest .video__media {
+        border-radius: 15px;
+    }
+
+    .video.video-honest .video__clip:before {
+        border-radius: 20px;
+    }
 }

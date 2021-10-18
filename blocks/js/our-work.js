@@ -34,11 +34,11 @@ $(document).ready(function(){
         breakpoints: {
             768: {
                 centeredSlides: true,
-                spaceBetween: 10,
+                loop: true,
             },
             414: {
                 centeredSlides: true,
-                spaceBetween: 30,
+                loop: true,
             }
         }
   
