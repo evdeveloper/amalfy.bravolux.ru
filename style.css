@@ -25,6 +25,7 @@ h3,
 h4,
 h5 {
     font-family: 'Igrasans', sans-serif;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -99,6 +100,7 @@ button {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    padding-top: 90px;
     min-height: 100vh;
 }
 
@@ -206,12 +208,6 @@ footer {
     background-color: #00D2D2;
 }
 
-@media screen and (max-width: 414px) {
-    .Button {
-        height: 45px;
-    }
-}
-
 .Button:hover {
     background-color: #1ac1c1;
 }
@@ -312,4 +308,21 @@ footer {
     -webkit-transform: translateX(5px);
     -ms-transform: translateX(5px);
     transform: translateX(5px);
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .Button {
+        height: 45px;
+    }
+
+    .wrapper {
+        padding-top: 65px;
+    }
 }

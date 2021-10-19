@@ -1,6 +1,12 @@
 .header {
-    padding: 16px 0 10px;
-    background: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 15px 0;
+    height: 90px;
+    background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.13);
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.13);
@@ -8,13 +14,20 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        padding: 17.5px 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 70px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0 5px;
     }
 }
 
 @media screen and (max-width: 414px) {
     .header {
-        padding: 10px 0;
+        height: 65px;
     }
 }
 
@@ -128,6 +141,7 @@
 }
 
 @media screen and (max-width: 980px) {
+
     .header__clock,
     .header__location {
         display: none;
@@ -224,6 +238,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
     .header__burger,
     .phone-btn {
         display: -webkit-box;

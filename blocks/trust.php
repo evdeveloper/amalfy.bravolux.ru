@@ -6,14 +6,14 @@
                 <div class="trust__top">
                     <img src="blocks/img/trust-1.svg" alt="img">
                 </div>
-                <div class="trust__title">Гарантия на покрытие - N дней</div>
+                <div class="trust__title">Гарантия на покрытие - <span>N дней</span></div>
                 <div class="trust__text">Переделаем покрытие бесплатно в течение N дней после маникюра или педикюра, если с ним что-то случится</div>
             </div>
             <div class="trust__item">
                 <div class="trust__top">
                     <img src="blocks/img/trust-2.svg" alt="img">
                 </div>
-                <div class="trust__title">Профилактические меры</div>
+                <div class="trust__title">Профилактические <span>меры</span></div>
                 <div class="trust__text">Мы безоговорочно следуем указам Роспотребнадзора и заботимся о клиентах и сотрудниках</div>
             </div>
             <div class="trust__item">
