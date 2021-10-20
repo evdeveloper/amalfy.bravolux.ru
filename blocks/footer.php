@@ -36,7 +36,7 @@
                     <a class="footer-nav__link" href="#"><span>Контакты</span></a>
                 </div>
                 <div class="footer-nav__col">
-                    <a class="footer__email" href="mailto:amalfibeauty.ru@yandex.ru">amalfibeauty.ru@yandex.ru</a>
+                    <a class="footer__email" href="mailto:amalfibeauty.ru@yandex.ru"><span>amalfibeauty.ru@yandex.ru</span></a>
                    <div class="footer__socials socials">
                        <a href="#" class="socials__item">
                             <svg width="20" height="20" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">

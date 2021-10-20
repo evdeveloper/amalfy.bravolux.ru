@@ -28,7 +28,7 @@
     overflow: hidden;
     height: 50px;
     margin: 0 auto 50px;
-    border: 1px solid #00D2D2;
+    border: 1px solid var(--green);
 }
 
 .mobileMenu__tab {
@@ -86,7 +86,7 @@
 }
 
 .mobileMenu__tab._active {
-    background-color: #00D2D2;
+    background-color: var(--green);
     color: var(--white);
 }
 

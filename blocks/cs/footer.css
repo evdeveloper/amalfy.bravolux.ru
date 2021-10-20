@@ -48,9 +48,30 @@
     transition: color .3s;
 }
 
-.footer__email:hover {
-    color: #00d2d2;
+.footer__email span {
+    position: relative;
+}
 
+.footer__email span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: var(--green);
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+
+.footer__email:hover {
+    color: var(--green);
+}
+.footer__email:hover span:after {
+    height: 5px;
 }
 
 .footer-nav {
@@ -88,11 +109,11 @@
     content: "";
     display: block;
     position: absolute;
-    bottom: 1px;
+    bottom: 0;
     left: 0;
     right: 0;
     height: 0;
-    background: #00D2D2;
+    background-color: var(--green);
     -o-transition: all 0.2s ease-out;
     -webkit-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -132,7 +153,7 @@
 }
 
 .socials__item:hover svg {
-    fill: #00d2d2;
+    fill: var(--green);
 }
 
 /* end socials */

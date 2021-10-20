@@ -67,7 +67,7 @@
     position: absolute;
     left: 0;
     font-size: 35px;
-    color: #00D2D2;
+    color: var(--green);
     bottom: -20px;
     width: 60px;
     height: 60px;
