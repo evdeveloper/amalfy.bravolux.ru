@@ -50,6 +50,7 @@
 
 .footer__email span {
     position: relative;
+    transition: all .3s;
 }
 
 .footer__email span:after {
@@ -66,10 +67,6 @@
     transition: all 0.2s ease-out;
 }
 
-
-.footer__email:hover {
-    color: var(--green);
-}
 .footer__email:hover span:after {
     height: 5px;
 }
@@ -122,7 +119,6 @@
 .footer-nav__link:hover span:after {
     height: 5px;
 }
-
 
 
 
