@@ -45,6 +45,12 @@
     text-transform: uppercase;
     color: var(--black);
     margin-bottom: 15px;
+    transition: color .3s;
+}
+
+.footer__email:hover {
+    color: #00d2d2;
+
 }
 
 .footer-nav {
