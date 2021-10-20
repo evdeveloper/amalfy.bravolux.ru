@@ -8,55 +8,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="blocks/cs/banner.css">
     <link rel="stylesheet" href="blocks/cs/header.css">
-    <link rel="stylesheet" href="blocks/cs/trust.css">
-    <link rel="stylesheet" href="blocks/cs/prices-table.css">
-    <title>Главная</title>
+    <title>О студии</title>
+
 </head>
 
 <body>
     <div class="wrapper">
-        <?php include ("blocks/header.php");?>
+        <?php include ("blocks/header-studio.php");?>
         <main class="main">
-            <?php include ("blocks/banner.php");?>
-            <?php include ("blocks/prices-table.php");?>
+            <?php include ("blocks/breadcrumbs.php");?>
             <?php include ("blocks/services-video.php");?>
-            <?php include ("blocks/trust.php");?>
-            <?php include ("blocks/services-our.php");?>
-            <?php include ("blocks/nice-offers.php");?>
-            <?php include ("blocks/care.php");?>
-            <?php include ("blocks/our-work.php");?>
-            <?php include ("blocks/duel.php");?>
-            <?php include ("blocks/honest-reviews.php");?>
-            <?php include ("blocks/friends.php");?>
+            <?php include ("blocks/manicure.php");?>
             <?php include ("blocks/gallery-salon.php");?>
+            <?php include ("blocks/trust.php");?>
             <?php include ("blocks/footer.php");?>
         </main>
     </div>
 
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="blocks/cs/breadcrumbs.css">
     <link rel="stylesheet" href="blocks/cs/gallery-salon.css">
     <link rel="stylesheet" href="blocks/cs/services-video.css">
+    <link rel="stylesheet" href="blocks/cs/trust.css">
+    <link rel="stylesheet" href="blocks/cs/manicure.css">
     <link rel="stylesheet" href="blocks/cs/video.css">
     <link rel="stylesheet" href="blocks/cs/popup.css">
-    <link rel="stylesheet" href="blocks/cs/select.css">
-    <link rel="stylesheet" href="blocks/cs/services-our.css">
-    <link rel="stylesheet" href="blocks/cs/nice-offers.css">
-    <link rel="stylesheet" href="blocks/cs/services-video.css">
-    <link rel="stylesheet" href="blocks/cs/honest-reviews.css">
-    <link rel="stylesheet" href="blocks/cs/our-work.css">
-    <link rel="stylesheet" href="blocks/cs/friends.css">
-    <link rel="stylesheet" href="blocks/cs/care.css">
-    <link rel="stylesheet" href="blocks/cs/duel.css">
     <link rel="stylesheet" href="blocks/cs/footer.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="blocks/js/gallery-salon.js"></script>
-    <script src="blocks/js/care.js"></script>
-    <script src="blocks/js/duel.js"></script>
-    <script src="blocks/js/our-work.js"></script>
     <script src="blocks/js/video.js"></script>
     <script src="blocks/js/select.js"></script>
     <script src="script.js"></script>

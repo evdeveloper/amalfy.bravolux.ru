@@ -8,7 +8,7 @@
     padding: 0 20px;
     height: calc(100vh - 80px);
     z-index: 1000;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .mobileMenu__tabs {
@@ -63,7 +63,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
-    color: #000;
+    color: var(--black);
     height: 40px;
     font-size: 20px;
     margin-bottom: 10px;
@@ -87,7 +87,7 @@
 
 .mobileMenu__tab._active {
     background-color: #00D2D2;
-    color: #fff;
+    color: var(--white);
 }
 
 .mobileMenu__header {
@@ -122,11 +122,11 @@
 
 .mobileMenu__phone {
     font-size: 25px;
-    color: #000;
+    color: var(--black);
 }
 
 .mobileMenu__call {
-    font-size: 15px;
+    font-size: var(--fontSize-15);
 }
 
 .mobileMenu__clock,

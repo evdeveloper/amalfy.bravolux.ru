@@ -1,6 +1,6 @@
 .footer {
     padding: 70px 0 85px;
-    background: #FFFFFF;
+    background: var(--white);
     -webkit-box-shadow: inset 0px 1px 0px #D7DDDE;
     box-shadow: inset 0px 1px 0px #D7DDDE;
 }
@@ -32,7 +32,7 @@
 
 .footer__phone {
     font-size: 30px;
-    color: #000;
+    color: var(--black);
 }
 
 .footer__call {
@@ -43,7 +43,7 @@
     font-size: 16px;
     white-space: nowrap;
     text-transform: uppercase;
-    color: #000;
+    color: var(--black);
     margin-bottom: 15px;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .footer-nav__link {
-    color: #000;
+    color: var(--black);
     margin-bottom: 10px;
 }
 
@@ -110,7 +110,7 @@
     align-items: center;
     font-size: 14px;
     text-transform: uppercase;
-    color: #000;
+    color: var(--black);
 }
 
 .socials__item:not(:last-child) {
@@ -118,7 +118,7 @@
 }
 
 .socials__item svg {
-    fill: #000;
+    fill: var(--black);
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -331,6 +331,6 @@
         -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
         order: 2;
-        font-size: 15px;
+        font-size: var(--fontSize-15);
     }
 }

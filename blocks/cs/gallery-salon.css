@@ -146,7 +146,7 @@
 
     .ph-salon p {
         text-align: center;
-        font-size: 15px;
+        font-size: var(--fontSize-15);
         line-height: 24px;
         margin-bottom: 20px;
     }
@@ -180,7 +180,7 @@
         -ms-flex-align: center;
         align-items: center;
         border-radius: 100%;
-        background-color: #fff;
+        background-color: var(--white);
         width: 30px;
         height: 30px;
     }

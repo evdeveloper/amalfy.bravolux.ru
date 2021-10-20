@@ -13,11 +13,11 @@
     position: relative;
     font-family: 'Igrasans', sans-serif;
     z-index: 1;
-    font-size: 15px;
+    font-size: var(--fontSize-15);
     line-height: 19px;
     background-color: #F9F9F9;
     padding: 20px;
-    color: #000;
+    color: var(--black);
     height: 220px;
     margin: 0 20px 20px 0;
     border-radius: 15px;

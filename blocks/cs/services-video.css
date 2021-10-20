@@ -13,7 +13,7 @@
 
 .services-video__col p {
     line-height: 24px;
-    font-size: 15px;
+    font-size: var(--fontSize-15);
 }
 
 .services-video__title {

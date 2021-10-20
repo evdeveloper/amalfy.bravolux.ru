@@ -78,7 +78,7 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: var(--white);
 }
 
 .duelSlider__click span {
@@ -92,7 +92,7 @@
     width: 70px;
     height: 60px;
     z-index: 100;
-    fill: #fff;
+    fill: var(--white);
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
@@ -120,7 +120,7 @@
     align-items: center;
     position: absolute;
     width: 100%;
-    color: #fff;
+    color: var(--white);
     font-size: 20px;
     opacity: 0;
     -webkit-transition: all.3s;
@@ -213,7 +213,7 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    background-color: #000;
+    background-color: var(--black);
     border-radius: 100%;
     margin-right: 15px;
 }
@@ -362,7 +362,7 @@
 
     .duel__title+p {
         text-align: center;
-        font-size: 15px;
+        font-size: var(--fontSize-15);
     }
 
     .duelSlider__item {
@@ -389,7 +389,7 @@
 
     .duelSlider__likes {
         top: 10px;
-        font-size: 15px;
+        font-size: var(--fontSize-15);
     }
 
     .duelSlider__likes span {

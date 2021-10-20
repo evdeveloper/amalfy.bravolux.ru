@@ -66,7 +66,7 @@
 }
 
 .friends__col p {
-    font-size: 15px;
+    font-size: var(--fontSize-15);
     line-height: 24px;
     margin-bottom: 10px;
 }

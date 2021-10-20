@@ -1,0 +1,25 @@
+.breadcrumbs {
+    font-family: Manrope;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.breadcrumbs__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.breadcrumbs span {
+    margin: 0 10px;
+}
+
+.breadcrumbs__item {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 19px;
+    color: var(--black);
+}

@@ -98,7 +98,7 @@
     }
 
     .banner__text {
-        font-size: 15px;
+        font-size: var(--fontSize-15);
         text-align: center;
         line-height: 24px;
         margin-bottom: 15px;

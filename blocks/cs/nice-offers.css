@@ -25,7 +25,7 @@
 }
 
 .nice-offers__text p {
-    font-size: 15px;
+    font-size: var(--fontSize-15);
     line-height: 24px;
     margin-bottom: 20px;
 }
@@ -73,7 +73,7 @@
     max-width: calc(33.333% - 30px);
     margin: 0 30px 30px 0;
     cursor: pointer;
-    color: #000;
+    color: var(--black);
 }
 
 .nice-offers__item:after {
@@ -91,7 +91,7 @@
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     -webkit-box-shadow: 0px 7px 20px rgba(39, 47, 77, 0.2);
     box-shadow: 0px 7px 20px rgba(39, 47, 77, 0.2);
     border-radius: 15px;
@@ -122,7 +122,7 @@
     }
 
     .nice-offers__body {
-        font-size: 15px;
+        font-size: var(--fontSize-15);
     }
 }
 
