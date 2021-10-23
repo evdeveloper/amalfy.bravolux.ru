@@ -27,14 +27,12 @@ $(document).ready(function(){
             onlyInViewport: false
         },
         breakpoints: {
-            700: {
-                spaceBetween: 30
-            },
             414: {
                 spaceBetween: 20
             },
             320: {
-                spaceBetween: 10
+                spaceBetween: 10,
+                centeredSlides: true
             }
         }
     });

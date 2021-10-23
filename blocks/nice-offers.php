@@ -4,42 +4,31 @@
         <div class="nice-offers">
             <div class="nice-offers__banner">
                 <div class="nice-offers__text">
-                    <h3>15% скидка на первый визит</h3>
-                    <p>Если ты ещё ни разу у нас не была, приглашаем попробовать со скидкой. Первый маникюр + гель-лак = 925 рублей.</p>
+                    <h3>30% скидка на первый визит</h3>
+                    <p>по промокоду «ПРОБУЖДЕНИЕ»</p>
                     <button type="button" class="Button Button-fill">Записаться</button>
                 </div>
                 <picture>
-                    <source srcset="img/offers/offers-mobile.jpg" media="(max-width: 550px)">
-                    <source srcset="img/offers/offers-768.jpg" media="(max-width: 768px)">
-                    <source srcset="img/offers/offers-1000.jpg" media="(max-width: 1000px)">
-                    <img src="img/offers/offers-desktop.jpg" alt="banner">
+                    <source srcset="img/offers/1-414.jpg" media="(max-width: 414px)">
+                    <source srcset="img/offers/1.jpg" media="(max-width: 550px)">
+                    <source srcset="img/offers/1-768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/offers/1-1000.jpg" media="(max-width: 1000px)">
+                    <img src="img/offers/1.jpg" alt="banner">
                 </picture>
             </div>
-            <div class="nice-offers__list">
-                <a href="#" class="nice-offers__item">
-                    <div class="nice-offers__top">
-                        <img src="img/offers/1.jpg" alt="banner">
-                    </div>
-                    <div class="nice-offers__body">
-                        Скидка 10% за фото маникюра
-                    </div>
-                </a>
-                <a href="#" class="nice-offers__item">
-                    <div class="nice-offers__top">
-                        <img src="img/offers/2.jpg" alt="banner">
-                    </div>
-                    <div class="nice-offers__body">
-                        Маникюр с подругой — дешевле
-                    </div>
-                </a>
-                <a href="#" class="nice-offers__item">
-                    <div class="nice-offers__top">
-                        <img src="img/offers/3.jpg" alt="banner">
-                    </div>
-                    <div class="nice-offers__body">
-                        Абонементы со скидкой до 30%
-                    </div>
-                </a>
+            <div class="nice-offers__banner">
+                <div class="nice-offers__text">
+                    <h3>Скидка постоянного клиента</h3>
+                    <p>Скидка -10% на пятую процедуру и -20% на десятую процедуру по карте постоянного клиента</p>
+                    <button type="button" class="Button Button-fill">Записаться</button>
+                </div>
+                <picture>
+                    <source srcset="img/offers/2-414.jpg" media="(max-width: 414px)">
+                    <source srcset="img/offers/2.jpg" media="(max-width: 550px)">
+                    <source srcset="img/offers/2-768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/offers/2-1000.jpg" media="(max-width: 1000px)">
+                    <img src="img/offers/2.jpg" alt="banner">
+                </picture>
             </div>
         </div>
     </div>

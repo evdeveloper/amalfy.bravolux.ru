@@ -3,8 +3,9 @@
         <div class="friends__inner">
             <div class="friends__col">
                 <h2 class="friends__title">Порадуйте друзей <span>и близких</span></h2>
-                <p>Уход за собой — лучший подарок!</p>
-                <p>При покупке подарочного сертификаты вы получите целый бьюти набор с маской для лица или кремом для рук в красивой упаковке! При покупке подарочного сертификаты вы получите целый бьюти набор с маской для лица или кремом для рук в красивой упаковке!</p>
+                <p>Уход за собой — лучший подарок!  Приобретите подарочный сертификат на любую сумму онлайн или в нашем салоне в красивой упаковке!</p>
+                <p>Дарите с удовольствием!</p>
+                <button type="button" class="Button Button-fill">Приобрести сертификат онлайн</button>
             </div>
             <div class="friends__col">
                 <div class="video">
@@ -21,28 +22,6 @@
                             </svg>
                         </button>
                     </div>
-                </div>
-            </div>
-        </div>
-        <h3>Дарите с удовольствием!</h3>
-        <div class="friends__list">
-            <div class="friends__offers">
-                <p>Дарите с удовольствием!</p>
-                <button type="button" class="Button Button-fill">Приобрести сертификат онлайн</button>
-            </div>
-            <div class="friends__bonus">
-                <div class="friends__bonus_item">
-                    <div class="friends__bonus_top">
-                        <img src="img/friends-1.png" alt="video">
-                    </div>
-                    <div class="friends__bonus_text">Подарочный сертификат Amalfi на любые услуги</div>
-                </div>
-                <div class="friends__bonus_plus">+</div>
-                <div class="friends__bonus_item">
-                    <div class="friends__bonus_top">
-                        <img src="img/friends-2.png" alt="video">
-                    </div>
-                    <div class="friends__bonus_text">Маска для лица или крема для рук</div>
                 </div>
             </div>
         </div>

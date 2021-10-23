@@ -2,7 +2,6 @@
 .sliderGalleryTop {
     position: relative;
     max-width: 770px;
-    height: 500px;
     margin: 0 auto 20px;
 }
 
@@ -11,6 +10,10 @@
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 20px;
+}
+
+.sliderGalleryTop__slide {
+    height: 500px;
 }
 
 .sliderGalleryTop__slide img {
@@ -100,6 +103,9 @@
 @media screen and (max-width: 1000px) {
     .sliderGalleryTop {
         max-width: 700px;
+    }
+
+    .sliderGalleryTop__slide {
         height: 450px;
     }
 }
@@ -111,6 +117,9 @@
 
     .sliderGalleryTop {
         max-width: 550px;
+    }
+
+    .sliderGalleryTop__slide {
         height: 360px;
     }
 
@@ -122,6 +131,9 @@
 @media screen and (max-width: 700px) {
     .sliderGalleryTop {
         max-width: 450px;
+    }
+
+    .sliderGalleryTop__slide {
         height: 300px;
     }
 
@@ -137,6 +149,9 @@
 @media screen and (max-width: 550px) {
     .sliderGalleryTop {
         max-width: 350px;
+    }
+
+    .sliderGalleryTop__slide {
         height: 250px;
     }
 
@@ -187,8 +202,11 @@
 
     .sliderGalleryTop {
         max-width: 300px;
-        height: 220px;
         margin: 0 auto 10px;
+    }
+
+    .sliderGalleryTop__slide {
+        height: 220px;
     }
     .sliderGalleryThumbs__slide:hover {
         transform: translateY(0);
