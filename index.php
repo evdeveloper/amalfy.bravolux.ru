@@ -54,6 +54,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="blocks/js/gallery-salon.js"></script>
+    <script src="blocks/js/jquery.inputmask.min.js"></script>
+    <script src="blocks/js/form.js"></script>
+    <script src="blocks/js/popup.js"></script>
     <script src="blocks/js/care.js"></script>
     <script src="blocks/js/duel.js"></script>
     <script src="blocks/js/our-work.js"></script>
@@ -130,6 +133,49 @@
                     </a>
                 </div>
             </footer>
+        </div>
+    </div>
+
+    <div class="popup popup-review" data-popup-id="#Review">
+        <div class="popup__close" data-popup-close>
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.7175 25.0561L0.490234 3.23789L2.82579 0.945312L25.0531 22.7635L22.7175 25.0561Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.490234 22.7635L22.7175 0.945351L25.0531 3.23793L2.82579 25.0561L0.490234 22.7635Z" fill="black"/>
+            </svg>
+        </div>
+        <div class="popup__inner">
+            <div class="popup__title popup-review--title">Онлайн-запись</div>
+            <div class="popup__title">Оставьте отзыв</div>
+            <form class="popup__form">
+                <div class="popup__input">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="popup__input">
+                    <label for="phone">Ваш телефон</label>
+                    <input type="tel" autocomplete="off" id="phone" name="phone" placeholder="+7 (___) ___-__-__">
+                </div>
+                <div class="popup__input">
+                    <label for="insta">Аккаунт инстаграм</label>
+                    <input type="text" id="insta" name="insta">
+                </div>
+                <div class="popup__input">
+                    <label for="msg">Текст отзыва</label>
+                    <textarea name="msg" id="msg"></textarea>
+                </div>
+                <div class="popup__file">
+                    <input type="file" class="file file__input" id="file" name="file" multiple>
+                    <label for="file">
+                        <span>Загрузите фото</span>&nbsp;
+                        или перетащите его сюда
+                    </label>
+                </div>
+                <div class="fileName"></div>
+                <div class="popup__form_btn">
+                    <button type="submit" class="Button Button-fill">Отправить</button>
+                </div>
+                <div class="popup__form_info">Нажимая кнопку вы даёте согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности</div>
+            </form>
         </div>
     </div>
 

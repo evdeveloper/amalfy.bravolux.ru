@@ -3,6 +3,9 @@
     --li-pink: #FF8DB1;
     --bg-blue: #EBFFFF;
     --bg-green: #EBFFF5;
+    --bg-gray: #F9F9F9;
+    --color-gray: #C4C4C4;
+    --drag-gray: #928b8b;
     --green: #00D2D2;
     --black: #000000;
     --white: #fff;
@@ -28,6 +31,10 @@ body {
     font-family: 'Manrope', sans-serif;
     font-weight: normal;
     font-size: var(--fontSize-15);
+}
+
+body._hidden {
+    overflow: hidden;
 }
 
 h1,

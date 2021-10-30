@@ -22,7 +22,7 @@
                         Белорусская, Александра Невского, 19–25
                     </div>
                     <a class="header__phone" href="tel:+74951320003">+7 (495) 132-00-03</a>
-                    <a class="header__call callback" href="#"><span>Записаться онлайн</span></a>
+                    <a class="header__call callback" data-popup-target="#Review" href="#"><span>Записаться онлайн</span></a>
                 </div>
                 <nav class="header-nav">
                     <a class="header-nav__link" href="#"><span>Услуги</span></a>
